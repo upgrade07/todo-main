@@ -84,7 +84,7 @@ const Todo = () => {
                     pointerEvents="none"
                     children={<AddIcon color="gray.300" />}
                 />
-                <Input type="text" onChange={(e) => setInput(e.target.value)} placeholder="Learn Chakra-UI & Next.js" />
+                <Input type="text" onChange={(e) => setInput(e.target.value)} placeholder="Enter Todo" />
                 <Button
                     ml={2}
                     onClick={() => sendData()}
