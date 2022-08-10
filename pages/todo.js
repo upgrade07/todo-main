@@ -75,7 +75,7 @@ const Todo = () => {
             <Flex justify="space-between" w="100%" align="center">
                 <Heading mb={4}>Welcome, {AuthUser.email}!</Heading>
                 <Flex>
-                    <IconButton ml={2} onClick={AuthUser.signOut} aria-label="Logout" />
+                    <button ml={2} onClick={AuthUser.signOut} aria-label="Logout">Logout</button>
                 </Flex>
             </Flex>
 
